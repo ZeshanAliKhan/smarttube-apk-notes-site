@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartTube Install Notes for Android TV and TV Boxes</title>
+  <meta name="description" content="My practical SmartTube install notes covering Android TV, TV boxes, sideloading expectations, and what I would check before setup.">
+  <link rel="canonical" href="https://zeshanalikhan.github.io/smarttube-apk-notes-site/pages/smarttube-install-notes.html">
+  <meta property="og:title" content="SmartTube Install Notes for Android TV and TV Boxes">
+  <meta property="og:description" content="My practical SmartTube install notes for Android TV style devices.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://zeshanalikhan.github.io/smarttube-apk-notes-site/pages/smarttube-install-notes.html">
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../app.js"></script>
+</head>
+<body data-page="smarttube-install-notes">
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="brand" href="../">SmartTube APK Notes</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../" data-nav="home">Home</a>
+        <a href="smarttube-apk-notes.html" data-nav="smarttube-apk-notes">Main Article</a>
+        <a href="smarttube-install-notes.html" data-nav="smarttube-install-notes">Install Notes</a>
+        <a href="smarttube-version-check.html" data-nav="smarttube-version-check">Version Check</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell narrow">
+        <p class="eyebrow">Install notes</p>
+        <h1>SmartTube install notes for Android TV and TV boxes</h1>
+        <p class="lead">This is the part of the topic that makes the most sense to me, because SmartTube is clearly a TV-device project. If the device fit is wrong, the rest of the APK discussion becomes much less useful.</p>
+        <div class="page-media">
+          <img class="feature-image" src="../assets/images/smarttube-install-notes.webp" alt="SmartTube install notes graphic showing TV device setup and downloader codes.">
+          <p class="media-note">The install guidance here is written for Android TV style hardware, not generic phone APK use.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell article-stack">
+        <article class="panel">
+          <h2>Start with the device fit</h2>
+          <p>The official project says SmartTube is built for Android TVs and TV boxes. It also says it is not supported on phones and tablets, and it does not run on platforms like Roku, Apple TV, LG, or Samsung TVs. The repo lists Android TVs, TV boxes, Chromecast with Google TV, NVIDIA Shield, and FireTV devices among the supported Android-based targets.</p>
+          <p>That is why my first install question is always simple: is this actually the kind of device the project is meant for?</p>
+        </article>
+
+        <article class="panel">
+          <h2>The easiest install routes I found</h2>
+          <p>The official repo documents a few routes clearly. The simplest one for many Android TV users is using the Downloader app from AFTVnews and entering one of the official codes. At the time I checked, the repo listed:</p>
+          <ul>
+            <li><strong>79015</strong> for the beta build</li>
+            <li><strong>28544</strong> for the stable build</li>
+          </ul>
+          <p>It also lists direct short links for the same files, which shows that the project itself expects users to install it outside traditional app stores. That is more useful than treating every third-party APK page as if it were the only route.</p>
+        </article>
+
+        <article class="panel">
+          <h2>Other install routes the official project mentions</h2>
+          <p>The official documentation also points to options like downloading the APK directly with a browser on the TV, copying it from a USB drive, or transferring it over the network. For Chromecast with Google TV style devices, the project specifically mentions enabling app installation from the relevant tool and launching the file from a file manager.</p>
+          <p>That tells me something important about this keyword: it is more of a device workflow topic than a simple "download latest apk" topic.</p>
+        </article>
+
+        <article class="panel">
+          <h2>What I would check before sideloading</h2>
+          <ul>
+            <li>make sure the device is actually an Android TV or TV box style target</li>
+            <li>check whether you want stable or beta before downloading</li>
+            <li>compare the file route against the official GitHub release page</li>
+            <li>make sure unknown-source app installation is enabled only where needed</li>
+            <li>do not confuse a TV install flow with a normal phone APK habit</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h2>What happens after the first install</h2>
+          <p>The project also documents that updates can happen inside the app, which makes the first installation more important than repeated manual hunting later. That is another reason I prefer checking the official project first: once the initial install path is sound, the maintenance burden is usually lower.</p>
+        </article>
+
+        <article class="panel">
+          <h2>The mistake I would avoid</h2>
+          <p>The biggest mistake with SmartTube APK is treating it like a generic mobile APK keyword. It is not. The right way to think about it is: TV device first, source check second, version choice third. When those are in the right order, the setup process becomes much clearer.</p>
+          <div class="hero-actions">
+            <a class="button secondary-inline" href="smarttube-apk-notes.html">Back to the main article</a>
+            <a class="button secondary-inline" href="smarttube-version-check.html">Open version check</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-row">
+      <p>SmartTube APK Notes</p>
+      <p>&copy; <span data-year></span></p>
+    </div>
+  </footer>
+</body>
+</html>
